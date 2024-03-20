@@ -1,0 +1,55 @@
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles pour le titre principal */
+h1 {
+    margin: 0;
+}
+
+/* Styles pour la section principale */
+main {
+    padding: 20px;
+}
+
+/* Styles pour la liste d'univers de science-fiction */
+.worlds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles pour chaque lien d'univers */
+.worlds a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Styles pour les images */
+.worlds img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Styles pour les noms d'univers */
+.worlds span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
